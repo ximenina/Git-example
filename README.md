@@ -2,9 +2,6 @@
 
 The following steps describe the standard flow.
 
-![gitflow](gitflow.png)
-
-
 *Steps 1 and 2 are only necessary the first time we create a new fork and we configure our local copy*
 ## 1. Fork the repository via Web 
 Using the web interface, we create a new `fork` of the main (Upstream) repository
@@ -76,25 +73,23 @@ $ git push origin feature_xyz
 
 * Go to our fork, via web, and send the `Pull Request` (green button)
 ---
-And remember, you can always verify that the latest change sent from the branch as `pull request` is now in the `master` branch of the local copy and the fork (steps 3 and 4):
+And remember, you can always verify that you have the latest changes in your `master` branch of the local copy and the fork (steps 3 and 4):
 
 
-* Be sure to be in the `master` branch of the local copy
 ```
 $ git checkout master
 ```
-
-* Fetch the latest changes (these are the changes sent with the `pull request`)
 ```
 git pull upstream master
 ```
 
-* Push the changes into the Fork
 ```
 $ git push origin master
 ```
 
 
+
+![gitflow](gitflow.png)
 
 
 **Important Note**: *The steps in this tutorial refer to `main` branch as `master` branch. The name of the `master` branch was recently changed in Github. If the forked/cloned repository refers to the main branch as the new name `main`, then just change the corresponding commands.*

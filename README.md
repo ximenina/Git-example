@@ -20,7 +20,7 @@ $ git remote add upstream [URL_MAIN_Repository]
 
 ## 3. Update our local copy of the fork with the latest version of the Upstream repository (a.k.a *Pull and Rebase*)
 
-BEFORE any change or work in the local copy, we should always get the latest version of the Upstream repository and update the Fork. In this case the fork will be updated in the `master branch`
+BEFORE any change in our local copy, we should always get the latest version of the Upstream repository and update the Fork. In this case the fork will be updated in the `master branch`
 
 * Switch to the master branch
 ```

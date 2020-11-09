@@ -73,7 +73,7 @@ $ git push origin feature_xyz
 
 * Go to our fork, via web, and send the `Pull Request` (green button)
 ---
-And remember, we can always verify that we have the latest changes (steps 3 and 4):
+If Pull Request is accepted, our changes will be merged to the main repository (upstream). And remember, we can always verify that our fork has the latest changes of the upstream (steps 3 and 4):
 
 
 ```

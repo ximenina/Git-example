@@ -80,7 +80,7 @@ If the Pull Request is accepted, our changes will be merged into the main reposi
 $ git checkout master
 ```
 ```
-git pull upstream master
+$ git pull upstream master
 ```
 
 ```

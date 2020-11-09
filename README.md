@@ -1,13 +1,13 @@
 # General overview of Fork/Pull-Request:
 
-The following steps describe the flow in the picture below.
+The following steps describe the standard flow.
 
 ![gitflow](gitflow.png)
 
 
-*Steps 1 and 2 are only necessary the first time we create a Fork and we configure our local copy.
+*Steps 1 and 2 are only necessary the first time we create a new fork and we configure our local copy*
 ## 1. Fork the repository via Web 
-Via Web Github, we reate a new `fork` of the main Upstream repository
+Using the web interface, we create a new `fork` of the main (Upstream) repository
 
 ## 2. Clone the Forked repository to our local machine
 * Clone the forked repository
@@ -15,7 +15,7 @@ Via Web Github, we reate a new `fork` of the main Upstream repository
 $ git clone [Fork_URL_Repository]
 ```
 
-* 2.1 We add the upstream, i.e., the remote main repository. This is done *only ONCE* for a new local copy of our forked repository
+* 2.1 We specify the upstream, i.e., the remote main repository. This is done *only ONCE* for a new local copy of our forked repository
 ```
 $ cd [Directory_cloned_repository]
 $ git remote add upstream [URL_MAIN_Repository]
@@ -23,7 +23,7 @@ $ git remote add upstream [URL_MAIN_Repository]
 
 ## 3. Update our local copy of the fork with the latest version of the Upstream repository (a.k.a *Pull and Rebase*)
 
-BEFORE any change or work in the local copy, get the latest version of the Upstream repository and update the Fork. In this case the fork will be updated in the `master branch`
+BEFORE any change or work in the local copy, we should get the latest version of the Upstream repository and update the Fork. In this case the fork will be updated in the `master branch`
 
 * Switch to the master branch
 ```
@@ -75,9 +75,8 @@ $ git push origin feature_xyz
 ```
 
 * Go to our fork, via web, and send the `Pull Request` (green button)
-
-
-## And remember, you can always verify that the latest change sent from the branch as `pull request` is now in the `master` branch of the local copy and the fork (steps 3 and 4):
+---
+And remember, you can always verify that the latest change sent from the branch as `pull request` is now in the `master` branch of the local copy and the fork (steps 3 and 4):
 
 
 * Be sure to be in the `master` branch of the local copy

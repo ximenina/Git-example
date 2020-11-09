@@ -87,7 +87,7 @@ $ git pull upstream master
 $ git push origin master
 ```
 
-Flow example:
+Flow example *(extracted from the web)*:
 
 ![gitflow](gitflow.png)
 

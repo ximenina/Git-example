@@ -6,8 +6,8 @@ The following steps describe the flow in the picture below.
 
 
 *Steps 1 and 2 are only necessary the first time we create a Fork and we configure our local copy.
-## 1. Fork the repository via Web [URL_Repository]
-Via Web create a new `fork` of the main Upstream repository
+## 1. Fork the repository via Web 
+Via Web Github, we reate a new `fork` of the main Upstream repository
 
 ## 2. Clone the Forked repository to our local machine
 * Clone the forked repository
@@ -77,7 +77,7 @@ $ git push origin feature_xyz
 * Go to our fork, via web, and send the `Pull Request` (green button)
 
 
-And remember, you can always verify that the latest change sent from the branch as `pull request` is now in the `master` branch of the local copy and the fork (steps 3 and 4):
+## And remember, you can always verify that the latest change sent from the branch as `pull request` is now in the `master` branch of the local copy and the fork (steps 3 and 4):
 
 
 * Be sure to be in the `master` branch of the local copy

@@ -2,7 +2,7 @@
 
 The following steps describe the standard flow.
 
-*Steps 1 and 2 are only necessary for the first time we create a new fork and we configure our local copy*
+*Steps 1 and 2 are only necessary the first time we create a new fork and we configure our local copy*
 ## 1. Fork the repository via Web 
 Using the web interface, we create a new `fork` of the main (Upstream) repository
 

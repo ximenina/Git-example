@@ -38,7 +38,7 @@ $ git pull upstream master
 ```
 $ git push origin master
 ```
-* If we check the web interface, our fork should be "even" with the upstream.
+* Now we have an updated fork. If we check the web interface, our fork should be "even" with the upstream.
 
 ## 5. Create the new branch for the `feature` we are going to work on and Send the `Pull request`
 

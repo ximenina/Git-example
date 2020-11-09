@@ -2,14 +2,14 @@
 
 The following steps describe the standard flow.
 
-*Steps 1 and 2 are only necessary the first time we create a new fork and we configure our local copy*
+*Steps 1 and 2 are only necessary for the first time we create a new fork and we configure our local copy*
 ## 1. Fork the repository via Web 
 Using the web interface, we create a new `fork` of the main (Upstream) repository
 
 ## 2. Clone the Forked repository to our local machine
 * Clone the forked repository
 ```
-$ git clone [Fork_URL_Repository]
+$ git clone [MyFork_URL_Repository]
 ```
 
 * 2.1 We specify the upstream, i.e., the remote main repository. This is done *only ONCE* for a new local copy of our forked repository
@@ -73,7 +73,7 @@ $ git push origin feature_xyz
 
 * Go to our fork, via web, and send the `Pull Request` (green button)
 ---
-And remember, you can always verify that you have the latest changes in your `master` branch of the local copy and the fork (steps 3 and 4):
+And remember, we can always verify that we have the latest changes (steps 3 and 4):
 
 
 ```
@@ -87,7 +87,7 @@ git pull upstream master
 $ git push origin master
 ```
 
-
+Flow example:
 
 ![gitflow](gitflow.png)
 

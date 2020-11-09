@@ -42,7 +42,7 @@ $ git push origin master
 
 ## 5. Create the new branch for the `feature` we are going to work on and Send the `Pull request`
 
-* Create the new branch to work on
+* Create a new branch to work on, e.g., *feature_xyz*
 ```
 $ git checkout -b feature_xyz 
 ```

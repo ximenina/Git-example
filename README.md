@@ -1,5 +1,3 @@
-# Git-example
-
 # General overview of Fork/Pull-Request:
 
 The following steps describe the flow in the picture below.
@@ -36,13 +34,15 @@ $ git checkout master
 $ git pull upstream master
 ```
 
-## 4. Push changes into the Fork
+
+## 4. Once our local copy is updated we push changes into the Fork:
 * Push the merged local copy to update the fork
 ```
 $ git push origin master
 ```
+* If we check the web interface, our fork should be "even" with the upstream.
 
-## 5. Create the new branch for the `feature` to work on and Send the `Pull request`
+## 5. Create the new branch for the `feature` we are going to work on and Send the `Pull request`
 
 * Create the new branch to work on
 ```
@@ -57,7 +57,7 @@ $ git checkout -b feature_xyz
 $ git add FILE1, FILE2, ...
 ```
 
-* Verify the files to be commited
+* We can verify which files are going to be commited
 ```
 $ git status
 ```
@@ -73,7 +73,7 @@ $ git commit -m "Commit change xyz"
 $ git push origin feature_xyz
 ```
 
-* Send the `Pull Request` via web
+* Go to our fork, via web, and send the `Pull Request` (green button)
 
 
 ## 8. Verify changes and update the Fork
